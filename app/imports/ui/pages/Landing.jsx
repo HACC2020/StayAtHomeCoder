@@ -6,8 +6,8 @@ class Landing extends React.Component {
   render() {
     return (
         <Grid id='landing-page' verticalAlign='middle' textAlign='center' container>
-          <Grid.Column fluid>
-
+          <Grid.Column width={4} padding={0}>
+            <Image size="large" src = "/images/occdesign.png"/>
           </Grid.Column>
 
           <Grid.Column width={8}>
