@@ -67,3 +67,10 @@ Here are the people who worked on this project:
 - Pauline Wu: Find her Github <a href = "https://github.com/Pauline-Peihan-Wu">here.</a>
 - Sophia Cruz: Find her Github <a href = "https://github.com/sophiaelizecruz">here.</a>
 - Victor Jodar: Find her Github <a href = "https://github.com/vjodar">here.</a>
+
+## What's next for Ku Ka'awale
+For our next steps, we plan to do the following:
+
+- Adding admin function, like edit/modify events 
+- Enhance the heat map function
+- Possibly develop into a mobile application that can be used by UHM students and visitors
