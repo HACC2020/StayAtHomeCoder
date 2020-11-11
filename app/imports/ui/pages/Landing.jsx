@@ -9,7 +9,7 @@ class Landing extends React.Component {
             <Grid.Column textAlign='center' width={8}>
                 <Image size='huge' circular src='/images/occdesign.png'/>
                 <div>
-                    <Header as='h1' inverted>Ku Ka'awale</Header>
+                    <Header as='h1' inverted>Ku Ka`&apos;`awale</Header>
                 </div>
                 <div>
                     <Header as='h2' inverted>The UHM Occupancy Visualization Application.</Header>
