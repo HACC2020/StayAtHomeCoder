@@ -12,6 +12,8 @@ import Landing from '../pages/Landing';
 //import AddStuff from '../pages/AddStuff';
 //import EditStuff from '../pages/EditStuff';
 import NotFound from '../pages/NotFound';
+import MapView from '../pages/MapView';
+import HistoryView from '../pages/HistoryView';
 import Signin from '../pages/Signin';
 import Signup from '../pages/Signup';
 import Signout from '../pages/Signout';
@@ -25,6 +27,8 @@ class App extends React.Component {
             <NavBar/>
             <Switch>
               <Route exact path="/" component={Landing}/>
+              <Route path="/MapView" component={MapView}/>
+                <Route path="/HistoryView" component={HistoryView}/>
               <Route path="/signin" component={Signin}/>
               <Route path="/signup" component={Signup}/>
               <AdminProtectedRoute path="/admin" component={ListStuffAdmin}/>
