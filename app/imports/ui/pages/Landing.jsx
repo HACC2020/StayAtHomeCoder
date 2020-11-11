@@ -11,8 +11,8 @@ class Landing extends React.Component {
           </Grid.Column>
 
           <Grid.Column width={8}>
-            <h1>UH Occupancy application</h1>
-            <p>Now you can view occupancy of the buildings on campus</p>
+            <h1>Ku Ka &apos;awale</h1>
+            <h2>The UHM Occupancy Visualization Application</h2>
           </Grid.Column>
         </Grid>
     );
