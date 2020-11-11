@@ -1,0 +1,33 @@
+body {
+    background-color: white;
+    height: 100%;
+    border: none;
+}
+
+.map-view {
+    margin-top: 30px;
+    float: right;
+    margin-right: -50px;
+}
+
+.violations {
+    margin-top: 25px;
+    margin-left: -80px;
+}
+
+.map-stack {
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+button {
+    background-color: transparent;
+    margin: 30px;
+}
+
+.history {
+    float: right;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0;
+}
