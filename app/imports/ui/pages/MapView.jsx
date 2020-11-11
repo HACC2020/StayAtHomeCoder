@@ -1,14 +1,15 @@
 import React from 'react';
 import { Grid, Button, Image, Form } from 'semantic-ui-react';
 
+import HeatMap from '../components/maps/HeatMap';
+
 class MapView extends React.Component {
     /** IMAGES AS TEMP PLACEHOLDERS FOR MAPS */
     render() {
         return (
             <Grid container width={16}>
                 <Grid.Column width={8}>
-                    <Image src="https://upload.wikimedia.org/wikipedia/commons/2/27/Wkipedia_blank_world_map.jpg"
-                           floated='left' size='massive' alt="filler placement for eventual map"/>
+                  <HeatMap/>
                 </Grid.Column>
                 <Grid.Column width={8}>
                     <Grid.Column>
@@ -44,7 +45,7 @@ class MapView extends React.Component {
                             <p>Top Three: </p>
                         </div>
                     </Grid.Column>
-                    <Grid.Column right width={6}>
+                    <Grid.Column right={"true"} width={6}>
                         <div className='map-view'>
                             <h2>Map View</h2>
                             <Button size='large' color='green'>Buildings</Button>
