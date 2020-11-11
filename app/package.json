@@ -21,21 +21,27 @@
     "uniforms-semantic": "^3.0.0-rc.5"
   },
   "devDependencies": {
+    "@meteorjs/eslint-config-meteor": "^1.0.5",
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.11.0",
-    "eslint-config-airbnb": "^18.2.0",
+    "eslint": "^7.13.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-import-resolver-meteor": "^0.4.0",
     "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jsx-a11y": "^6.3.1",
-    "eslint-plugin-meteor": "^7.2.1",
-    "eslint-plugin-react": "^7.21.4",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-meteor": "^7.2.2",
+    "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.1.2",
     "eslint-utils": "^2.1.0",
     "testcafe": "^1.9.4"
   },
   "scripts": {
     "start": "meteor --no-release-check --exclude-archs web.browser.legacy,web.cordova --settings ../config/settings.development.json",
-    "lint": "eslint --quiet --ext .jsx --ext .js ./imports",
+    "lint": "eslint .",
+    "pretest": "npm run lint --silent",
     "testcafe-development": "testcafe chrome tests/*.testcafe.js",
     "testcafe": "testcafe chrome:headless tests/*.testcafe.js -q --app \"meteor npm run start\""
+  },
+  "eslintConfig": {
+    "extends": "@meteorjs/eslint-config-meteor"
   }
 }
