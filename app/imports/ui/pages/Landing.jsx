@@ -6,14 +6,13 @@ class Landing extends React.Component {
   render() {
     return (
         <Grid id='landing-page' verticalAlign='middle' textAlign='center' container>
+          <Grid.Column fluid>
 
-          <Grid.Column width={4}>
-            <Image size='small' circular src="/images/meteor-logo.png"/>
           </Grid.Column>
 
           <Grid.Column width={8}>
-            <h1>Welcome to this template</h1>
-            <p>Now get to work and modify this app!</p>
+            <h1>UH Occupancy application</h1>
+            <p>Now you can view occupancy of the buildings on campus</p>
           </Grid.Column>
 
         </Grid>
