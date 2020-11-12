@@ -6,7 +6,7 @@
 * [Developer Guide](#developer-guide)
 * [Development History](#development-history)
 * [Developers](#developers)
-# [Functional Design Video](https://youtu.be/HfnLT0Au9QU)
+* [Functional Design Video](https://youtu.be/HfnLT0Au9QU)
 
 ## Overview
 
@@ -18,7 +18,6 @@ of COVID-19 on campus, and increase the efficiency of campus scheduling procedur
 The application is built using:
 - [Meteor-application-template-react](https://github.com/ics-software-engineering/meteor-application-template-react) for component-based UI implementation and 
 routing.
-- [Google Map API]() for the map and data 
 - [GeoJSON](https://geojson.io/#map=2/20.0/0.0) for the map
 
 ## User Guide
